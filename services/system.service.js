@@ -23,8 +23,7 @@ module.exports = {
 
         info: {
             handler(ctx) {
-                let infoPromise = broker.call("$node.stats").then(res => res);
-                return Promise.resolve(infoPromise);
+                return this.broker.statistics.snapshot();
             }
         }
 

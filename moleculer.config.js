@@ -39,7 +39,7 @@ module.exports = {
 	validator: null,
 	metrics: true,
 	metricsRate: 1,
-	statistics: true,
+    statistics: true,
 	internalActions: true,
 
 	hotReload: false
