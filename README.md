@@ -1,4 +1,6 @@
 # mtmhp-api-gateway
+This is backend of Mobile Telstra Media Home Page.
+It is part of POC.
 
 ## Build Setup
 
